@@ -18,8 +18,12 @@ app.config(function($stateProvider, $urlRouterProvider) {
   }).state('about', {
     url: '/about',
     templateUrl: 'About-us.html'
-  }).
-    state('scotch', {
+  })
+  .state('home.5steps', {
+      url: '/5steps',
+      templateUrl: 'index5steps.html'
+    })
+  .state('scotch', {
     url: '/scotch/:scotch',
     templateUrl: function ($stateParams){
       console.log($stateParams)
