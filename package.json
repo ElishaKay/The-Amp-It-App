@@ -2,6 +2,11 @@
   "name": "agency",
   "title": "Agency",
   "version": "3.3.7+1",
+  "main": "server.js",
+  "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node server.js"
+    },
   "homepage": "http://startbootstrap.com/template-overviews/agency",
   "author": "Start Bootstrap",
   "license": {
