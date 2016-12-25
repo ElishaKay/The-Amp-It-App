@@ -31,6 +31,7 @@
     "url": "https://github.com/BlackrockDigital/startbootstrap-agency.git"
   },
   "dependencies": {
-    "compass-mixins": "^0.12.10"
+    "compass-mixins": "^0.12.10",
+    "express": "^4.14.0"
   }
 }
